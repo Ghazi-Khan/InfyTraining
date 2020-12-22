@@ -8,7 +8,6 @@ def translate(bilingual_dict,english_words_list):
     #Write your logic here
     swedish_words_list = []
     for item in english_words_list:
-        # TODO: write code...
         swedish_words_list.append(bilingual_dict[item])
         
     return swedish_words_list
